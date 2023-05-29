@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_login_with_phone.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_login_with_phone.xml"
+    },
+    {
+        "merged": "com.example.sehatinaja.app-mergeDebugResources-44:/layout/activity_register.xml",
+        "source": "com.example.sehatinaja.app-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-mergeDebugResources-44:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_splash_screen.xml"
+    }
+]
