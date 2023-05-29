@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "541125635399",
+    "project_id": "authsehatinaja",
+    "storage_bucket": "authsehatinaja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541125635399:android:304329abdd9791baacb062",
+        "android_client_info": {
+          "package_name": "com.example.sehatinaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541125635399-tpjrc9ojp86hb4lp4o1abkle1iv739mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYS7V5_mD45glBiPBA4I1eF1ddAyijJ3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541125635399-tpjrc9ojp86hb4lp4o1abkle1iv739mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541125635399:android:7186fc2ce82b5a2bacb062",
+        "android_client_info": {
+          "package_name": "com.example.tesaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541125635399-tpjrc9ojp86hb4lp4o1abkle1iv739mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYS7V5_mD45glBiPBA4I1eF1ddAyijJ3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541125635399-tpjrc9ojp86hb4lp4o1abkle1iv739mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
