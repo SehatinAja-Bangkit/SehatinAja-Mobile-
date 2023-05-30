@@ -8,6 +8,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 
 import com.example.sehatinaja.databinding.ActivityMainBinding
+import com.example.sehatinaja.ui.camera.CameraActivity
 import com.example.sehatinaja.ui.login.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -28,7 +29,9 @@ class MainActivity : AppCompatActivity() {
 
         if (firebaseUser == null) {
             // Not signed in, launch the Login activity
-            startActivity(Intent(this, LoginActivity::class.java))
+//            startActivity(Intent(this, LoginActivity::class.java))
+            // Temp -- Camera Activity
+            startActivity(Intent(this, CameraActivity::class.java))
             finish()
             return
         }

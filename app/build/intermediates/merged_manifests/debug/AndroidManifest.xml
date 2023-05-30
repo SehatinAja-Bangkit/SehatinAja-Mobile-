@@ -8,6 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -26,9 +30,15 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/logo_sehatinaja"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SehatinAja" >
+        <activity
+            android:name="com.example.sehatinaja.ui.camera.CameraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.SehatinAja" />
         <activity
             android:name="com.example.sehatinaja.HomeActivity"
             android:exported="false" />
@@ -142,6 +152,14 @@
             android:initOrder="90" />
 
         <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
+        <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"
             android:exported="false" >
@@ -233,6 +251,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

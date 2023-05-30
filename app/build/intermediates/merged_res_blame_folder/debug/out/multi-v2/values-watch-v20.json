@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sehatinaja.app-mergeDebugResources-43:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.sehatinaja.app-mergeDebugResources-61:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\5e0804bac377b32ab098c791db4ed9cc\\transformed\\play-services-auth-20.2.0\\res\\values-watch-v20\\values.xml",
