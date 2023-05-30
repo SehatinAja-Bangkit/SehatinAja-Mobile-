@@ -1,0 +1,394 @@
+--------- beginning of main
+--------- beginning of crash
+--------- beginning of system
+2023-05-30 12:28:27.397 21447-21447 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 21447
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: mobilenet_v1_1.0_224_quant.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:29:50.616 22307-22307 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 22307
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: mobilenet_v1_1.0_224_quant.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:32:20.393 23017-23017 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 23017
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: mobilenet_v1_1.0_224_quant.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:32:49.057 23213-23213 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 23213
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: mobilenet_v1_1.0_224_quant.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:39:00.155 24855-24855 mple.sehatinaj          com.example.sehatinaja               I  Late-enabling -Xcheck:jni
+2023-05-30 12:39:01.419 24855-24855 Perf                    com.example.sehatinaja               I  Connecting to perf service.
+2023-05-30 12:39:01.488 24855-24855 FirebaseApp             com.example.sehatinaja               I  Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2023-05-30 12:39:01.507 24855-24855 FirebaseInitProvider    com.example.sehatinaja               I  FirebaseApp initialization successful
+2023-05-30 12:39:01.523 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-05-30 12:39:01.524 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-05-30 12:39:01.733 24855-24855 AppCompatDelegate       com.example.sehatinaja               D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-05-30 12:39:01.773 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-05-30 12:39:01.774 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-05-30 12:39:01.774 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-05-30 12:39:01.774 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-05-30 12:39:01.930 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-05-30 12:39:02.007 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-05-30 12:39:02.009 24855-24855 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-05-30 12:39:02.205 24855-24855 Choreographer           com.example.sehatinaja               I  Skipped 37 frames!  The application may be doing too much work on its main thread.
+2023-05-30 12:39:02.227 24855-24855 ActivityThread          com.example.sehatinaja               W  handleWindowVisibility: no activity for token android.os.BinderProxy@8311806
+2023-05-30 12:39:02.384 24855-24855 AndroidRuntime          com.example.sehatinaja               D  Shutting down VM
+2023-05-30 12:39:02.386 24855-24855 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 24855
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: mobilenet_v1_1.0_224_quant.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:39:02.403 24855-24855 Process                 com.example.sehatinaja               I  Sending signal. PID: 24855 SIG: 9
+---------------------------- PROCESS STARTED (25746) for package com.example.sehatinaja ----------------------------
+---------------------------- PROCESS ENDED (25746) for package com.example.sehatinaja ----------------------------
+2023-05-30 12:41:39.828 25746-25746 Perf                    com.example.sehatinaja               I  Connecting to perf service.
+2023-05-30 12:41:39.893 25746-25746 FirebaseApp             com.example.sehatinaja               I  Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2023-05-30 12:41:39.905 25746-25746 FirebaseInitProvider    com.example.sehatinaja               I  FirebaseApp initialization successful
+2023-05-30 12:41:39.920 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-05-30 12:41:39.921 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-05-30 12:41:40.083 25746-25746 AppCompatDelegate       com.example.sehatinaja               D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-05-30 12:41:40.115 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-05-30 12:41:40.115 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-05-30 12:41:40.115 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-05-30 12:41:40.115 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-05-30 12:41:40.255 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-05-30 12:41:40.323 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-05-30 12:41:40.324 25746-25746 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-05-30 12:41:40.512 25746-25746 Choreographer           com.example.sehatinaja               I  Skipped 33 frames!  The application may be doing too much work on its main thread.
+2023-05-30 12:41:40.531 25746-25746 ActivityThread          com.example.sehatinaja               W  handleWindowVisibility: no activity for token android.os.BinderProxy@8311806
+2023-05-30 12:41:40.680 25746-25746 AndroidRuntime          com.example.sehatinaja               D  Shutting down VM
+2023-05-30 12:41:40.683 25746-25746 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 25746
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: model_katarak_93.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:41:40.715 25746-25746 Process                 com.example.sehatinaja               I  Sending signal. PID: 25746 SIG: 9
+---------------------------- PROCESS STARTED (27483) for package com.example.sehatinaja ----------------------------
+2023-05-30 12:48:08.810 27483-27483 Perf                    com.example.sehatinaja               I  Connecting to perf service.
+2023-05-30 12:48:08.863 27483-27483 FirebaseApp             com.example.sehatinaja               I  Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2023-05-30 12:48:08.872 27483-27483 FirebaseInitProvider    com.example.sehatinaja               I  FirebaseApp initialization successful
+2023-05-30 12:48:08.885 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-05-30 12:48:08.885 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-05-30 12:48:08.999 27483-27483 AppCompatDelegate       com.example.sehatinaja               D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-05-30 12:48:09.025 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-05-30 12:48:09.025 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-05-30 12:48:09.025 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-05-30 12:48:09.025 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-05-30 12:48:09.127 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-05-30 12:48:09.181 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-05-30 12:48:09.182 27483-27483 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-05-30 12:48:09.332 27483-27483 ActivityThread          com.example.sehatinaja               W  handleWindowVisibility: no activity for token android.os.BinderProxy@8311806
+2023-05-30 12:48:09.444 27483-27483 AndroidRuntime          com.example.sehatinaja               D  Shutting down VM
+2023-05-30 12:48:09.447 27483-27483 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 27483
+                                                                                                    java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:503)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+                                                                                                    Caused by: java.io.FileNotFoundException: model_katarak_93.tflite
+                                                                                                    	at android.content.res.AssetManager.nativeOpenAssetFd(Native Method)
+                                                                                                    	at android.content.res.AssetManager.openFd(AssetManager.java:768)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.loadModelFile(Classifier.kt:45)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+2023-05-30 12:48:09.461 27483-27483 Process                 com.example.sehatinaja               I  Sending signal. PID: 27483 SIG: 9
+---------------------------- PROCESS ENDED (27483) for package com.example.sehatinaja ----------------------------
+---------------------------- PROCESS STARTED (28280) for package com.example.sehatinaja ----------------------------
+2023-05-30 12:50:56.679 28280-28280 Perf                    com.example.sehatinaja               I  Connecting to perf service.
+2023-05-30 12:50:56.776 28280-28280 FirebaseApp             com.example.sehatinaja               I  Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2023-05-30 12:50:56.794 28280-28280 FirebaseInitProvider    com.example.sehatinaja               I  FirebaseApp initialization successful
+2023-05-30 12:50:56.813 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-05-30 12:50:56.813 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-05-30 12:50:56.996 28280-28280 AppCompatDelegate       com.example.sehatinaja               D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-05-30 12:50:57.042 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-05-30 12:50:57.043 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-05-30 12:50:57.043 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-05-30 12:50:57.043 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-05-30 12:50:57.222 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-05-30 12:50:57.303 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-05-30 12:50:57.305 28280-28280 mple.sehatinaj          com.example.sehatinaja               W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-05-30 12:50:57.501 28280-28280 Choreographer           com.example.sehatinaja               I  Skipped 39 frames!  The application may be doing too much work on its main thread.
+2023-05-30 12:50:57.524 28280-28280 ActivityThread          com.example.sehatinaja               W  handleWindowVisibility: no activity for token android.os.BinderProxy@8311806
+2023-05-30 12:50:57.753 28280-28280 AndroidRuntime          com.example.sehatinaja               D  Shutting down VM
+2023-05-30 12:50:57.755 28280-28280 AndroidRuntime          com.example.sehatinaja               E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.sehatinaja, PID: 28280
+                                                                                                    java.lang.IllegalArgumentException: Internal error: Cannot create interpreter: Didn't find op for builtin opcode 'CONV_2D' version '5'
+                                                                                                    
+                                                                                                    Registration failed.
+                                                                                                    
+                                                                                                    	at org.tensorflow.lite.NativeInterpreterWrapper.createInterpreter(Native Method)
+                                                                                                    	at org.tensorflow.lite.NativeInterpreterWrapper.init(NativeInterpreterWrapper.java:72)
+                                                                                                    	at org.tensorflow.lite.NativeInterpreterWrapper.<init>(NativeInterpreterWrapper.java:63)
+                                                                                                    	at org.tensorflow.lite.Interpreter.<init>(Interpreter.java:266)
+                                                                                                    	at com.example.sehatinaja.ui.tflite.Classifier.<init>(Classifier.kt:40)
+                                                                                                    	at com.example.sehatinaja.ui.camera.Camera2BasicFragment.onActivityCreated(Camera2BasicFragment.kt:270)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3137)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:579)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:264)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1890)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1808)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1751)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2976)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:2886)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:263)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:351)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:251)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1392)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:7161)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:186)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:171)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6692)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+2023-05-30 12:50:57.772 28280-28280 Process                 com.example.sehatinaja               I  Sending signal. PID: 28280 SIG: 9
+---------------------------- PROCESS ENDED (28280) for package com.example.sehatinaja ----------------------------
