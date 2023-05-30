@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sehatinaja.app-mergeDebugResources-43:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.sehatinaja.app-mergeDebugResources-61:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\ed3819af41362406a8a7ff1e1744c148\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

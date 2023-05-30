@@ -1,122 +1,138 @@
 [
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_home.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_login_with_phone.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_login_with_phone.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_login.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_logo_sehatinaja.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\logo_sehatinaja.png"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_camera.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_camera.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_baseline_flip_camera_android_24.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/baseline_flip_camera_android_24.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_splash_screen1.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\splash_screen1.png"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_register.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_bg_button.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/bg_button.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_logo_sehatinaja.png.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/logo_sehatinaja.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_custom_edit_text.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\custom_edit_text.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_splash_screen.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\splash_screen.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_main.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.sehatinaja.app-merged_res-45:/layout_activity_register.xml.flat",
-        "source": "com.example.sehatinaja.app-main-47:/layout/activity_register.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_baseline_flash_on_24.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/baseline_flash_on_24.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_login.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\xml\\backup_rules.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_splash_screen.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_splash_screen.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_bg_button.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\bg_button.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_main.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\layout\\activity_home.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_splash_screen1.png.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/splash_screen1.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_login_with_phone.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_login_with_phone.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_baseline_camera_24.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/baseline_camera_24.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_custom_edit_text.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/custom_edit_text.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\drawable_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\drawable\\baseline_arrow_back_24.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.sehatinaja.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sehatinaja.app-merged_res-63:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sehatinaja.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sehatinaja.app-merged_res-63:/layout_activity_register.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable_baseline_flash_off_24.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable/baseline_flash_off_24.xml"
+    },
+    {
+        "merged": "com.example.sehatinaja.app-merged_res-63:/xml_backup_rules.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.sehatinaja.app-merged_res-63:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sehatinaja.app-main-65:/drawable-v24/ic_launcher_foreground.xml"
     }
 ]
