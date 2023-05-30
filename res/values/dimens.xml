@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="frame_height">112dp</dimen>
+    <dimen name="image_button_padding">20dp</dimen>
+</resources>
