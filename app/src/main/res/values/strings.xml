@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">SehatinAjaApp</string>
+
+    <string name="greeting">Halo, Bagaimana Kabarmu</string>
+    <string name="periksa_kesehatanmu">Periksa Kesehatanmu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="penyakit_umum">Penyakit Umum</string>
+    <string name="penyakit_tulang">Penyakit Tulang</string>
+    <string name="penyakit_dalam">Penyakit Dalam</string>
+    <string name="penyakit_mata">Penyakit Mata</string>
+    <string name="text_answer">Yes</string>
+    <string name="home">Home</string>
+    <string name="doctor">Doctor</string>
+    <string name="message">Message</string>
+    <string name="other">Other</string>
+
+    <!--    -->
+
+    <string name="diabetes1">1. Kadar gula darah puasa:
+\n - Normal: Kurang dari 100 mg/dL (5.6 mmol/L)
+\n - Prediabetes: Antara 100-125 mg/dL (5.6-6.9 mmol/L)
+\n - Diabetes: 126 mg/dL (7.0 mmol/L) atau lebih
+\n2. Kadar gula darah sewaktu (random):
+\n - Normal: Kurang dari 140 mg/dL (7.8 mmol/L)
+\n - Diabetes: 200 mg/dL (11.1 mmol/L) atau lebih dengan gejala diabetes, seperti poliuria (sering buang air kecil), polidipsia (sering merasa haus), atau penurunan berat badan yang tidak dijelaskan.
+\n3. Tes toleransi glukosa oral (OGTT):
+\n - Normal: Kurang dari 140 mg/dL (7.8 mmol/L) 2 jam setelah meminum larutan gula
+\n - Prediabetes: Antara 140-199 mg/dL (7.8-11.0 mmol/L) 2 jam setelah meminum larutan gula
+\n - Diabetes: 200 mg/dL (11.1 mmol/L) atau lebih 2 jam setelah meminum larutan gula</string>
+
+    <string name="diabetes2">Gejala Diabetes
+Diabetes tipe 1 dapat berkembang dengan cepat dalam beberapa minggu atau bahkan beberapa hari saja. Sedangkan pada diabetes tipe 2, banyak penderitanya yang tidak menyadari bahwa mereka telah menderita diabetes selama bertahun-tahun, karena gejalanya cenderung tidak spesifik.
+Beberapa ciri-ciri penyakit gula atau diabetes tipe 1 dan tipe 2 meliputi:
+\n - Sering merasa haus atau sangat lapar
+\n - Sering buang air kecil, terutama pada malam hari
+\n - Penurunan berat badan tanpa sebab yang jelas
+\n - Penurunan massa otot
+\n - Pandangan kabur
+\n - Urine mengandung keton
+\n - Tubuh mudah lelah dan lemas
+\n - Luka menjadi lebih sulit sembuh
+\n - Mudah mengalami infeksi, seperti di gusi, kulit, vagina, atau saluran kemih</string>
+
+    <string name="diabetes3">Pencegahan Diabetes
+Diabetes tipe 1 tidak dapat dicegah karena pemicunya belum diketahui. Sementara itu, diabetes tipe 2 dan diabetes gestasional dapat dicegah, yaitu dengan pola hidup sehat. Beberapa upaya yang bisa dilakukan untuk mencegah diabetes di antaranya:
+\n - Mengatur frekuensi dan menu makanan menjadi lebih sehat
+\n - Rutin berolahraga dan melakukan aktivitas fisik
+\n - Menjaga berat badan ideal
+\n - Beristirahat dan tidur yang cukup
+\n - Berhenti merokok
+\n - Menghindari konsumsi minuman beralkohol
+\n - Mengelola stres dengan baik
+\n - Rutin menjalani pengecekan gula darah, setidaknya sekali dalam 1 tahun</string>
+
+    <string name="hipertensi1">
+1. Tekanan darah normal:
+\n - Sistolik (tekanan darah puncak): Kurang dari 120 mmHg
+\n - Diastolik (tekanan darah rendah): Kurang dari 80 mmHg
+\n2. Prehipertensi:
+\n - Sistolik: Antara 120-139 mmHg
+\n - Diastolik: Antara 80-89 mmHg
+\n3. Hipertensi tingkat 1:
+\n - Sistolik: Antara 140-159 mmHg
+\n - Diastolik: Antara 90-99 mmHg
+\n4.Hipertensi tingkat 2:
+\n - Sistolik: 160 mmHg atau lebih tinggi
+\n - Diastolik: 100 mmHg atau lebih tinggi
+    </string>
+
+    <string name="hipertensi2">
+Hipertensi terbagi ke dalam hipertensi primer dan hipertensi sekunder. Hipertensi primer tidak diketahui penyebabnya dengan pasti, sedangkan hipertensi sekunder dapat terjadi akibat beberapa faktor, seperti penyakit ginjal, sleep apnea, dan kecanduan alkohol.
+\nHipertensi memiliki istilah the silent killer atau penyakit yang membunuh secara diam-diam. Hal ini karena penderita hipertensi umumnya tidak mengalami gejala apa pun sampai tekanan darahnya sudah terlalu tinggi dan mengancam nyawa.
+\nOleh sebab itu, penting untuk rutin memeriksakan tekanan darah, baik secara mandiri atau dengan datang ke dokter.
+    </string>
+
+    <string name="hipertensi3">
+Hipertensi bisa diatasi dengan menjalani pola hidup sehat, seperti mengonsumsi makanan sehat, menghentikan kebiasaan merokok, dan mengurangi konsumsi minuman berkafein. Namun, jika tekanan darah sudah cukup tinggi, pasien juga diharuskan mengonsumsi obat antihipertensi.
+\nUntuk mencegah tekanan darah tinggi, lakukan olahraga secara rutin, jaga berat badan agar tetap ideal, konsumsi makanan sehat, kelola stres, dan cukup tidur. Periksakan juga tekanan darah secara berkala ke dokter, terlebih jika Anda memiliki faktor yang dapat meningkatkan risiko hipertensi.
+    </string>
+
+    <string name="penyakit_dalam1">
+Penyakit jantung adalah kondisi ketika bagian jantung mengalami gangguan. Gejala penyakit jantung tergantung pada jenis yang dialami penderita. Namun, gejala yang biasanya muncul adalah:
+\n - Nyeri dada
+\n - Dada sering berdebar
+\n - Sesak napas
+\n - Pembengkakan di kaki
+\n - Lemas
+\n - Pingsan
+    </string>
+
+    <string name="penyakit_dalam2">
+Penyakit jantung dapat dicegah dengan menghindari faktor-faktor risikonya. Beberapa cara yang dapat dilakukan adalah:
+\n - Tidak merokok
+\n - Mengonsumsi makanan sehat bergizi lengkap dan seimbang
+\n - Berolahraga rutin
+\n - Memeriksakan diri ke dokter secara berkala, terutama jika memiliki penyakit yang meningkatkan risiko terserang penyakit jantung, seperti diabetes, penyakit tiroid, atau hipertens
+        \nKAMI SARANKAN SEGERA MENGHUBUNGI DOKTER UNTUK PEMERIKSAAN LEBIH LANJUT DAN SEGERA MENDAPATKAN PENANGANAN
+    </string>
+
+    <string name="tulang1">Osteoporosis disebabkan oleh menurunnya kemampuan tubuh dalam meregenerasi tulang. Penurunan kemampuan regenerasi ini biasanya akan dimulai saat seseorang memasuki usia 35 tahun.
+\nSelain itu ada faktor lain yang bisa meningkatkan risiko terjadinya osteoporosis, seperti kekurangan vitamin D, gangguan hormon, jarang berolahraga, konsumsi obat-obatan tertentu, serta kebiasaan merokok.
+    </string>
+
+    <string name="tulang2">Pengobatan osteoporosis bertujuan untuk mencegah terjadinya patah tulang atau tulang retak. Jika penderita osteoporosis sangat berisiko untuk mengalami patah tulang, dokter dapat memberikan obat-obatan untuk meningkatkan kepadatan tulang, seperti:
+\n - Bifosfonat
+\n - Antibodi monoklonal
+\n - Terapi hormon
+        \nKAMI SARANKAN SEGERA MENGHUBUNGI DOKTER UNTUK PEMERIKSAAN LEBIH LANJUT DAN SEGERA MENDAPATKAN PENANGANAN
+    </string>
+    <string name="hindari">Hindari :</string>
+    <string name="intruksi_menggunakan_kamera">Intruksi Menggunakan Kamera</string>
+
+
+    <!--Instruksi    -->
+
+    <string name="lakukan">Lakukan</string>
+    <string name="instruksi_lakukan">1. Tidak ada pantulan apapun pada mata, (cahaya, maupun benda) \n 2. Gambar mata penih tanpa sedikit menutup mata \n 3.Pengambilan gambar pas di tengah pada mata \n 4.pastikan anda menatap kamera bukan layar hp anda</string>
+    <string name="deskripsi_diabetes">Diabetes adalah penyakit yang ditandai dengan tingginya kadar gula darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia. Akan tetapi, pada penderita diabetes, glukosa tersebut tidak dapat digunakan oleh tubuh.</string>
+    <string name="deskripsi_hipertensi">Hipertensi adalah kondisi ketika tekanan darah berada di angka 130/80 mmHg atau lebih. Jika tidak segera ditangani, hipertensi bisa menyebabkan munculnya penyakit-penyakit serius yang mengancam nyawa, seperti gagal jantung, penyakit ginjal, dan stroke.</string>
+    <string-array name="instruksi_lakukan">
+        <item>1. Tidak ada pantulan apapun pada mata(cahaya, benda)</item>
+        <item>2. Gambar mata penuh tanpa sedikit menutup mata</item>
+        <item>3. Pengambilan gambar pas di tengah pada mata</item>
+    </string-array>
+</resources>

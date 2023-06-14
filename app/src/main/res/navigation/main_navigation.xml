@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sehatinajaapp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/screeningFragment"
+        android:name="com.example.sehatinajaapp.ui.screening.ScreeningFragment"
+        android:label="fragment_screening"
+        tools:layout="@layout/fragment_screening" />
+    <fragment
+        android:id="@+id/questionerFragment"
+        android:name="com.example.sehatinajaapp.ui.questioner.QuestionerFragment"
+        android:label="fragment_questioner"
+        tools:layout="@layout/fragment_questioner" />
+</navigation>

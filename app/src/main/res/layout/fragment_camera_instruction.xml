@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.camera.CameraInstructionFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <ImageButton
+               android:id="@+id/back_btn"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:background="@drawable/ic_arrow_back_green"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"
+               android:contentDescription="back" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/intruksi_menggunakan_kamera"
+               android:textSize="24sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="16dp"/>
+
+
+                   <ImageView
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="30dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/instruction1" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Salah"
+                       android:textStyle="bold"
+                       android:textSize="30sp"
+                       android:textColor="@color/red"
+                       android:layout_gravity="center"/>
+
+
+
+
+           <ImageView
+               android:scaleType="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/instruction2"
+
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Salah"
+               android:textStyle="bold"
+               android:textSize="30sp"
+               android:textColor="@color/red"
+               android:layout_gravity="center"/>
+
+           <ImageView
+               android:scaleType="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/instruction3"
+
+               android:layout_marginTop="30dp"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Benar"
+               android:textStyle="bold"
+               android:textSize="30sp"
+               android:textColor="@color/green_sehat"
+               android:layout_gravity="center"/>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="370dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               app:cardCornerRadius="30dp"
+               android:paddingBottom="20dp">
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/hindari"
+                       android:textColor="@color/red"
+                       android:textStyle="bold"
+                       android:textSize="26sp"
+                       android:layout_marginTop="36dp"
+                       android:layout_marginStart="20dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:text="1. Cahaya masuk ke pantulan mata\n 2.Gambar mata yang agak tertutup"
+                       android:textColor="@color/black"
+                       android:textSize="16sp"
+                       android:textStyle="bold"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/lakukan"
+                       android:textColor="@color/green_sehat"
+                       android:textStyle="bold"
+                       android:textSize="26sp"
+
+                       android:layout_marginStart="20dp"
+                       android:layout_marginTop="5dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:text="@string/instruksi_lakukan"
+                       android:textColor="@color/black"
+                       android:textSize="16sp"
+                       android:textStyle="bold"
+                       android:layout_marginBottom="20dp"/>
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/btn_agree"
+               android:layout_width="300dp"
+               android:layout_height="wrap_content"
+               android:text="Saya Paham"
+               android:textColor="@color/white"
+               android:background="@color/green_sehat"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp"
+               />
+
+       </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
