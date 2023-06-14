@@ -1,0 +1,3 @@
+[submodule "SehatinAja-backend"]
+	path = SehatinAja-backend
+	url = https://github.com/AliNicholas/SehatinAja-backend.git
