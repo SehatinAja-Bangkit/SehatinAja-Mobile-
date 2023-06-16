@@ -21,16 +21,16 @@ SehatinAja is an Android application that aims to facilitate users in accessing 
 ## Screenshots
 
 <div style="display: flex; flex-direction:row; width:200px">
-    <img src='screenshot/8.jpeg'/>
-    <img src='screenshot/7.jpeg'/>
-    <img src='screenshot/1.jpeg'/>
-    <img src='screenshot/2.jpeg'/>
-    <img src='screenshot/3.jpeg'/>
-    <img src='screenshot/4.jpeg'/>
-    <img src='screenshot/5.jpeg'/>
-    <img src='screenshot/6.jpeg'/>
-    <img src='screenshot/9.jpeg'/>
-    <img src='screenshot/10.jpeg'/>
+    <img src='screenshot/8.jpg'/>
+    <img src='screenshot/7.jpg'/>
+    <img src='screenshot/1.jpg'/>
+    <img src='screenshot/2.jpg'/>
+    <img src='screenshot/3.jpg'/>
+    <img src='screenshot/4.jpg'/>
+    <img src='screenshot/5.jpg'/>
+    <img src='screenshot/6.jpg'/>
+    <img src='screenshot/9.jpg'/>
+    <img src='screenshot/10.jpg'/>
     
 </div>
 
