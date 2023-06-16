@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.questioner.QuestionerFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.questioner.yesOrNo.dalam.Question1Fragment">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
     <ImageButton
         android:id="@+id/back_btn3"
         android:layout_width="40dp"
@@ -43,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Bagian tulang yang sakit"
+        android:text="@string/question1"
         android:textColor="@color/black"
 
         android:textSize="36sp"
@@ -51,11 +48,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/answer1"
+        android:id="@+id/answerYes"
         android:layout_width="350dp"
         android:layout_height="70dp"
         android:layout_marginTop="156dp"
-        android:text="@string/leher"
+        android:text="@string/Yes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,23 +62,13 @@
         android:id="@+id/answer2"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:text="@string/badan"
+        android:text="@string/No"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer1"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/answerYes"
+        />
 
-    <Button
-        android:id="@+id/answer3"
-        android:layout_width="350dp"
-        android:layout_height="70dp"
-        android:text="@string/kaki"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-</ScrollView>

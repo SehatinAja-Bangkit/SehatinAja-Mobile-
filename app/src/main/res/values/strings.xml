@@ -134,6 +134,12 @@ Penyakit jantung dapat dicegah dengan menghindari faktor-faktor risikonya. Beber
     <string name="perempuan">Perempuan</string>
     <string name="atau">atau</string>
     <string name="result">Result</string>
+    <string name="leher">Leher</string>
+    <string name="badan">Badan</string>
+    <string name="kaki">Kaki</string>
+    <string name="Yes">Iya</string>
+    <string name="No">Tidak</string>
+    <string name="question1">Apakah anda merasa kesusahan untuk berdiri?</string>
     <string-array name="instruksi_lakukan">
         <item>1. Tidak ada pantulan apapun pada mata(cahaya, benda)</item>
         <item>2. Gambar mata penuh tanpa sedikit menutup mata</item>
