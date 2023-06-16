@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import com.example.sehatinajaapp.R
 import com.example.sehatinajaapp.databinding.FragmentHomeBinding
+import com.example.sehatinajaapp.ui.login.LoginActivity
 import com.example.sehatinajaapp.ui.screening.ScreeningFragment
 
 
@@ -40,6 +41,14 @@ class HomeFragment : Fragment() {
 
 
     fun setUpAction(){
+
+////        binding.user.setOnClickListener{
+////            val activityLogin = LoginActivity()
+////            val fragmentTransaction = requireFragmentManager().beginTransaction()
+////            fragmentTransaction.replace(R.id.nav_host_fragment, activityLogin)
+////            fragmentTransaction.addToBackStack(null)
+////            fragmentTransaction.commit()
+//        }
         binding.ibScreening.setOnClickListener{
             val fragmentScreening = ScreeningFragment()
             val fragmentTransaction = requireFragmentManager().beginTransaction()

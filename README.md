@@ -1,47 +1,46 @@
-plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
 
-android {
-    namespace 'com.example.sehatinajaapp'
-    compileSdk 33
+# SehatinAja
 
-    defaultConfig {
-        applicationId "com.example.sehatinajaapp"
-        minSdk 24
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+SehatinAja is an Android application that aims to facilitate users in accessing healthcare services easily. This application includes a screening or disease diagnosis feature, allowing users to identify their illnesses more conveniently and quickly.
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
 
-    buildFeatures {
-        viewBinding true
-        mlModelBinding true
-    }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+## Features
 
-    aaptOptions {
-        noCompress "tflite"
-        noCompress"lite"
-        }
-}
+- Login/Logout
+- Register
+- Screening/diagnosis disease
+- List doctor (under development)
+- medicine recomendation
+
+
+
+
+
+## Screenshots
+
+<div style="display: flex; flex-direction:row; width:200px">
+    <img src='screenshot/8.jpeg'/>
+    <img src='screenshot/7.jpeg'/>
+    <img src='screenshot/1.jpeg'/>
+    <img src='screenshot/2.jpeg'/>
+    <img src='screenshot/3.jpeg'/>
+    <img src='screenshot/4.jpeg'/>
+    <img src='screenshot/5.jpeg'/>
+    <img src='screenshot/6.jpeg'/>
+    <img src='screenshot/9.jpeg'/>
+    <img src='screenshot/10.jpeg'/>
+    
+</div>
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/Serfee/Mobile-Development.git`
+2. Open the project in Android Studio.
+3. Build and run the application on your Android device or emulator.
+
+##Depedencies
 
 dependencies {
 
@@ -89,3 +88,4 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.4'
 
 }
+    

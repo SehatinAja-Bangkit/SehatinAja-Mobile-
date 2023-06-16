@@ -60,4 +60,32 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="52dp"
+        android:text="info hardcoded"
+        android:textAlignment="center"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/green_sehat"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"
+        android:elevation="8dp"
+        app:backgroundTint="@color/green_sehat"
+        app:icon="@drawable/baseline_photo_camera_24"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp" />
+
+
 </LinearLayout>

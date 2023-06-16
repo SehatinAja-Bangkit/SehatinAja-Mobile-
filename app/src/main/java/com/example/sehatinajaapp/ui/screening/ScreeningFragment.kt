@@ -10,6 +10,7 @@ import com.example.sehatinajaapp.databinding.FragmentScreeningBinding
 import com.example.sehatinajaapp.ui.camera.CameraFragment
 import com.example.sehatinajaapp.ui.camera.CameraInstructionFragment
 import com.example.sehatinajaapp.ui.home.HomeFragment
+import com.example.sehatinajaapp.ui.questioner.QuestionerFragment
 
 
 class ScreeningFragment : Fragment() {
@@ -50,10 +51,18 @@ class ScreeningFragment : Fragment() {
 //
         }
         binding.btnScreening2.setOnClickListener{
-//
+            val questionerFragment = QuestionerFragment()
+            val fragmentTransaction = requireFragmentManager().beginTransaction()
+            fragmentTransaction.replace(R.id.nav_host_fragment,questionerFragment)
+            fragmentTransaction.addToBackStack(null)
+            fragmentTransaction.commit()
         }
-        binding.btnScreening2.setOnClickListener{
-//
+        binding.btnScreening3.setOnClickListener{
+            val questionerFragment = QuestionerFragment()
+            val fragmentTransaction = requireFragmentManager().beginTransaction()
+            fragmentTransaction.replace(R.id.nav_host_fragment,questionerFragment)
+            fragmentTransaction.addToBackStack(null)
+            fragmentTransaction.commit()
         }
         binding.btnScreening4.setOnClickListener{
             val cameraInstructionFragment = CameraInstructionFragment()

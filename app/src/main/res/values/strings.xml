@@ -118,6 +118,22 @@ Penyakit jantung dapat dicegah dengan menghindari faktor-faktor risikonya. Beber
     <string name="instruksi_lakukan">1. Tidak ada pantulan apapun pada mata, (cahaya, maupun benda) \n 2. Gambar mata penih tanpa sedikit menutup mata \n 3.Pengambilan gambar pas di tengah pada mata \n 4.pastikan anda menatap kamera bukan layar hp anda</string>
     <string name="deskripsi_diabetes">Diabetes adalah penyakit yang ditandai dengan tingginya kadar gula darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia. Akan tetapi, pada penderita diabetes, glukosa tersebut tidak dapat digunakan oleh tubuh.</string>
     <string name="deskripsi_hipertensi">Hipertensi adalah kondisi ketika tekanan darah berada di angka 130/80 mmHg atau lebih. Jika tidak segera ditangani, hipertensi bisa menyebabkan munculnya penyakit-penyakit serius yang mengancam nyawa, seperti gagal jantung, penyakit ginjal, dan stroke.</string>
+    <string name="login_dengan_telepon">Login Dengan Telepon</string>
+    <string name="login">Login</string>
+    <string name="login_dengan_gmail">Login dengan Gmail</string>
+    <string name="belum_punya_akun">Belum Punya Akun?</string>
+    <string name="buat_akun">Buat Akun</string>
+    <string name="kode_otp">Kode OTP</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="no_telepon_email">No. Telepon/Email</string>
+    <string name="username">username</string>
+    <string name="daftar">Daftar</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki - Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="atau">atau</string>
+    <string name="result">Result</string>
     <string-array name="instruksi_lakukan">
         <item>1. Tidak ada pantulan apapun pada mata(cahaya, benda)</item>
         <item>2. Gambar mata penuh tanpa sedikit menutup mata</item>
