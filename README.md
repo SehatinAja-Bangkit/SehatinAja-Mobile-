@@ -29,8 +29,8 @@ SehatinAja is an Android application that aims to facilitate users in accessing 
     <img src='screenshot/4.jpg'/>
     <img src='screenshot/5.jpg'/>
     <img src='screenshot/6.jpg'/>
-    <img src='screenshot/9.jpg'/>
-    <img src='screenshot/10.jpg'/>
+    <img src='screenshot/9.png'/>
+    <img src='screenshot/10.png'/>
     
 </div>
 
